@@ -1,26 +1,28 @@
 public class numbers {
+    static int n = 1;
     public static void main(String[] args) {
-        print1(1);
+
+        print1(n);
     }
     static void print1(int n)
     {
         System.out.println(n);
-        print2(2);
+        print2(n+1);
     }
     static void print2(int n)
     {
         System.out.println(n);
-        print3(3);
+        print3(n+1);
     }
     static void print3(int n)
     {
         System.out.println(n);
-        print4(4);
+        print4(n+1);
     }
     static void print4(int n)
     {
         System.out.println(n);
-        print5(5);
+        print5(n+1);
     }
     static void print5(int n)
     {
