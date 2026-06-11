@@ -2,7 +2,7 @@ package Recursion;
 
 public class fibonacciexample {
     public static void main(String[] args) {
-         int ans =fibo(8);
+         int ans =fibo(4);
         System.out.println(ans);
     }
     static int fibo(int n)
