@@ -3,12 +3,13 @@ package Recursion;
 
 
 public class reverseanum {
-    static int rev = 0;
+
     public static void main(String[] args) {
         int n=12345;
-        System.out.println(reverse(n));
+        int rev = 0;
+        System.out.println(reverse(n,rev));
     }
-    static int reverse(int n)
+    static int reverse(int n,int rev)
     {
         if(n==0)
         {
@@ -16,7 +17,7 @@ public class reverseanum {
         }
 
         rev = (rev*10 + n%10);
-        reverse(n/10);
+        reverse(n/10,rev);
         return rev ;
 
     }
