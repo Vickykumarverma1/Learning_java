@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class fibonacciwithmemoization {
 
 //    earlier for calculating fibonacci number for big value takes a lot of time because it computes a same
-//    value again and again means it was linear recurrance but using memoization technique we can compute large
-//    number in very efficeintly and fastly.
+//    function various times means it was linear recurrence but using memoization technique we can compute large
+//    number in very efficiently and fastly.
 //
     public static void main(String[] args) {
         int n = 100;

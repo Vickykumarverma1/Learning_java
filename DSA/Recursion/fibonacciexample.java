@@ -2,10 +2,10 @@ package Recursion;
 
 public class fibonacciexample {
     public static void main(String[] args) {
-         int ans =fibo(4);
+         long ans =fibo(50);
         System.out.println(ans);
     }
-    static int fibo(int n)
+    static long fibo(int n)
     {
         if(n<2)
         {
