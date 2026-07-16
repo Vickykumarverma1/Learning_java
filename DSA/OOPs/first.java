@@ -30,6 +30,6 @@ public class first {
         System.out.println(s1.age);
 
         s1.study();
-        s1.eat();
+//        s1.eat();
     }
 }
