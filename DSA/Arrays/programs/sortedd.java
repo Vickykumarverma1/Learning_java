@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.programs;
 
 public class sortedd {
     public static void main(String[] args) {

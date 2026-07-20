@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.util.Arrays;
+package Arrays.programs;
 
 public class TwoSum {
     public static void main(String[] args) {
