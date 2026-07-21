@@ -3,14 +3,14 @@ class human {
     int age;
     String name;
     int salary;
-    static long  population;   //static means for all it should be same anyone can use it
+    static long  population = 70000000;   //static means for all it should be same anyone can use it
 
     human(int age, String name, int salary)
     {
         this.age=age;
         this.name=name;
         this.salary=salary;
-        human.population +=1;
+//        human.population +=1;
     }
     @Override
     public String toString()
